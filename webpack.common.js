@@ -78,6 +78,18 @@ module.exports = {
         type: 'asset/resource',
       },
       {
+        test: /\.(txt|csv|mmdb)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'public/[name].[ext]',
+              emitFile: true,
+            },
+          },
+        ],
+      },
+      {
         test: require.resolve('jquery'),
         loader: 'expose-loader',
         options: { exposes: ['$', 'jQuery'] },
