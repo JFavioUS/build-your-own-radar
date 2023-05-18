@@ -40,7 +40,7 @@
     align-items: center;
     gap: 1.5rem;
 
-    .pdf-tw-logo {
+    .pdf-unosquare-logo {
       height: 28px;
     }
   }
@@ -76,7 +76,7 @@
       margin-bottom: 1.5rem;
       gap: 0;
 
-      .pdf-tw-logo {
+      .pdf-unosquare-logo {
         margin: 2rem 0;
       }
 
@@ -210,16 +210,6 @@
     color: $mist-s30;
     justify-content: space-between;
     width: 98%;
-  }
-
-  .input-sheet__logo,
-  .hero-banner,
-  main > *:not(#pdf-cover-page, #radar),
-  #radar > #radar-plot,
-  .radar-legends,
-  .ui-helper-hidden-accessible,
-  #onetrust-consent-sdk {
-    display: none !important;
   }
 }
 
