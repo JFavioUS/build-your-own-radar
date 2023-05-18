@@ -1,4 +1,5 @@
 require('./stylesheets/base.scss')
+require('./public/radar.csv')
 require('./images/unosquare-logo.png')
 require('./images/favicon.ico')
 require('./images/search-logo-2x.svg')
