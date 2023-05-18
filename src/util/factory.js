@@ -273,7 +273,7 @@ const Factory = function () {
       }
     })
 
-    sheet = CSVDocument('/radar.csv')
+    sheet = CSVDocument('/public/radar.csv')
     sheet.init().build()
 
     setDocumentTitle()
